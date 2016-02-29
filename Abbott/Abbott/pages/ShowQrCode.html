@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>长按识别图中二维码</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+    <script src="../Scripts/jquery-1.7.1.min.js"></script>
+    <style>
+        * {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-selcet: none;
+        }
+    </style>
+    <script type="text/javascript">
+
+        //获取url参数
+        function getQueryString(name) {
+            var reg = new RegExp('(^|&)' + name + '=([^&]*)(&|$)', 'i');
+            var r = window.location.search.substr(1).match(reg);
+            if (r != null) {
+                return unescape(r[2]);
+            }
+            return null;
+        }
+
+        $(function () {
+            var strUrl = getQueryString("url");
+            if (strUrl == null || strUrl == "null" || strUrl == "") {
+                $("#img_erweima").attr("src", "../erweima/test.jpg");
+            } else {
+                $("#img_erweima").attr("src", strUrl);
+            }
+        });
+    </script>
+</head>
+<body>
+    <div style="width: 100%; margin: 0 auto;">
+        <img src="../erweima/test.jpg" id="img_erweima" alt="" style="width: 100%; height: 100%">
+    </div>
+    <br />
+    长按上方二维码，点击“识别图中二维码”关注1325公众平台。
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        name="viewport" />
+        <meta name="format-detection" content="telephone=no" />
+    <script src="../../Scripts/jquery-1.7.1.min.js"></script>
+    <script src="../../Scripts/layer/layer.js"></script>
+    <script src="../../Scripts/main.js"></script>
+    <link href="../../style/main.css" rel="stylesheet" />
+    <link href="../../style/two.css" rel="stylesheet" />
+    <title></title>
+    <style type="text/css">
+        .close {
+            position: absolute;
+            top: -8%;
+            left: 88%;
+            right: 1%;
+            bottom: 72%;
+        }
+    </style>
+</head>
+<body>
+    <div id="content" style="width: 100%; height: 100%">
+        <img src="../../images/layerimg/4-6.jpg" style="position: relative" />
+        <p class="close" onclick="close_click()"></p>
+        <!---主动抓握-->
+        <a href="javascript:jumps('../4-6/ActiveGrip.html')">
+            <p class="zsxl"></p>
+        </a>
+        <!---看图识物-->
+        <a href="javascript:jumps('../4-6/PlugIdentification.html')">
+            <p class="xsxl"></p>
+        </a>
+        <!---注视寻找-->
+        <a href="javascript:jumps('../4-6/LookFor.html')">
+            <p class="cjxl"></p>
+        </a>
+        <!---主动翻身-->
+        <a href="javascript:jumps('../4-6/ActiveTurningOver.html')">
+            <p class="ztbdhd"></p>
+        </a>
+        <!---拉立坐摆-->
+        <a href="javascript:jumps('../4-6/PullandSwing.html')">
+            <p class="zdfwtt"></p>
+        </a>
+        <!---跳跃训练-->
+        <a href="javascript:jumps('../4-6/JumpTraining.html')">
+            <p class="fsxl"></p>
+        </a>
+        <!---熟悉亲人-->
+        <a href="javascript:jumps('../4-6/FamiliarwithRelatives.html')">
+            <p class="mzxq"></p>
+        </a>
+        <!---镜像游戏-->
+        <a href="javascript:jumps('../4-6/MirrorActivices.html')">
+            <p class="pygl"></p>
+        </a>
+        <!---愉悦情绪-->
+        <a href="javascript:jumps('../4-6/PleasantMood.html')">
+            <p class="jwxl"></p>
+        </a>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    //关闭按钮
+    function close_click() {
+        var index = parent.layer.getFrameIndex(window.name);
+        window.parent.layer.close(index);
+    }
+</script>

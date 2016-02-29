@@ -1,0 +1,44 @@
+﻿.gj {
+    position: absolute;
+    top: 60%;
+    left: 19%;
+    right: 18.5%;
+    bottom: 34.2%;
+    outline: none;
+}
+
+.home {
+    position: absolute;
+    top: 74%;
+    left: 83%;
+    right: 7%;
+    bottom: 18.5%;
+    outline: none;
+}
+
+.czl {
+    position: absolute;
+    top: 83.6%;
+    left: 65%;
+    right: 13.5%;
+    bottom: 9.2%;
+    outline: none;
+}
+
+.yj {
+    position: absolute;
+    top: 35.6%;
+    left: 39.5%;
+    right: 41.5%;
+    bottom: 45.6%;
+    outline: none;
+}
+
+.index_video {
+    position: absolute;
+    top: 19.4%;
+    left: 6%;
+    right: 6%;
+    bottom: 30%;
+    outline: none;
+}

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        name="viewport" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="../../Scripts/jquery-1.7.1.min.js"></script>
+    <script src="../../Scripts/layer/layer.js"></script>
+    <script src="../../Scripts/main.js"></script>
+    <link href="../../style/main.css" rel="stylesheet" />
+    <link href="../../style/five.css" rel="stylesheet" />
+    <title></title>
+    <style type="text/css">
+        .close {
+            position: absolute;
+            top: -8%;
+            left: 88%;
+            right: 1%;
+            bottom: 72%;
+        }
+    </style>
+</head>
+<body>
+    <div id="content" style="width: 100%; height: 100%">
+        <img src="../../images/layerimg/10-12.jpg" style="position: relative;" />
+        <p class="close" onclick="close_click()"></p>
+        <!---指认图画实物-->
+        <a href="../10-12/IdentifyTheRealPicture.html">
+            <p class="zrthsw"></p>
+        </a>
+        <!---模仿说单字-->
+        <a href="javascript:jumps('../10-12/ImitationWords.html')">
+            <p class="mfsdz"></p>
+        </a>
+        <!---开盒盖训练-->
+        <a href="javascript:jumps('../10-12/OpenCoverTraining.html')">
+            <p class="khgxl"></p>
+        </a>
+        <!---双手对击-->
+        <a href="javascript:jumps('../10-12/HandsonStrike.html')">
+            <p class="ssdj"></p>
+        </a>
+        <!---蹲起站立-->
+        <a href="javascript:jumps('../10-12/SquatStand.html')">
+            <p class="dqzl"></p>
+        </a>
+        <!---扶行踢球-->
+        <a href="javascript:jumps('../10-12/ToPlayFootball.html')">
+            <p class="fxtq"></p>
+        </a>
+        <!---学习分享-->
+        <a href="javascript:jumps('../10-12/LearningtoShare.html')">
+            <p class="xxfx"></p>
+        </a>
+        <!---执行指令-->
+        <a href="javascript:jumps('../1-3/ExecuteInstruction.html')">
+            <p class="zxzl"></p>
+        </a>
+        <!---独立能力-->
+        <a href="javascript:jumps('../10-12/IndependentAbility.html')">
+            <p class="dlnl"></p>
+        </a>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    //关闭按钮
+    function close_click() {
+        var index = parent.layer.getFrameIndex(window.name);
+        window.parent.layer.close(index);
+    }
+</script>

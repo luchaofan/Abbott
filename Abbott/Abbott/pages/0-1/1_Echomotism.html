@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        name="viewport" />
+    <meta name="format-detection" content="telephone=no" />
+    <title>模仿动作</title>
+    <script src="../../Scripts/jquery-1.7.1.min.js"></script>
+    <script src="../../Scripts/main.js"></script>
+    <link href="../../style/main.css" rel="stylesheet" />
+    <style>
+        .home {
+            position: absolute;
+            top: 71%;
+            left: 83%;
+            right: 7%;
+            bottom: 21%;
+            outline: none;
+        }
+
+        .yj {
+            position: absolute;
+            top: 56.5%;
+            left: 39.5%;
+            right: 42%;
+            bottom: 29.5%;
+            outline: none;
+        }
+
+        .index_video {
+            position: absolute;
+            top: 46.2%;
+            left: 6%;
+            right: 6%;
+            bottom: 17%;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div id="one">
+            <img src="../../images/0_1/9/9_01.jpg" />
+        </div>
+        <div id="two">
+            <img src="../../images/0_1/9/9_02.jpg" />
+        </div>
+        <div id="three">
+            <img src="../../images/0_1/9/9_03.jpg" />
+
+            <a>
+                <p class="yj" onclick="playvideo()"></p>
+            </a>
+            <a>
+                <p class="index_video" style="display: none;">
+                    <video style="width: 100%; height: 100%" id="index" preload="auto" controls="controls" src="http://121.40.203.186/abbott/shejiaopian/Echomotism.mp4">
+                        <!-- <video style="width: 100%; height: 100%" id="index" preload="auto" controls="controls" src="../video/zhinengpian/VisualTraining.mp4">-->
+                    </video>
+                </p>
+            </a>
+        </div>
+        <a href="javascript:jump('../Main.html')">
+            <p class="img_content">
+                <img src="../../images/box.png" />
+            </p>
+        </a>
+    </div>
+</body>
+</html>

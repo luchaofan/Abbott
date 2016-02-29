@@ -1,0 +1,83 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        name="viewport" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="../../Scripts/jquery-1.7.1.min.js"></script>
+    <script src="../../Scripts/main.js"></script>
+    <title>藏物寻找</title>
+    <link href="../../style/main.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .home {
+            position: absolute;
+            top: 71%;
+            left: 83%;
+            right: 7%;
+            bottom: 21%;
+            outline: none;
+        }
+
+        .czl {
+            position: absolute;
+            top: 88%;
+            left: 60%;
+            right: 17%;
+            bottom: 5%;
+            outline: none;
+        }
+
+        .yj {
+            position: absolute;
+            top: 37%;
+            left: 39.5%;
+            right: 41.7%;
+            bottom: 40.5%;
+            outline: none;
+        }
+
+        .index_video {
+            position: absolute;
+            top: 20.5%;
+            left: 6%;
+            right: 6%;
+            bottom: 20.9%;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <div id="one">
+            <img src="../../images/7_9/1/01.jpg" />
+        </div>
+        <div id="two">
+            <img src="../../images/7_9/1/02.jpg" />
+        </div>
+        <div id="three">
+            <img src="../../images/7_9/1/03.jpg" />
+        </div>
+        <div id="four">
+            <img src="../../images/7_9/1/04.jpg" />
+            <a>
+                <p class="yj" onclick="playvideo()"></p>
+            </a>
+            <a>
+                <p class="index_video" style="display: none">
+                    <video width="100%" height="100%" id="index" controls="controls" preload="auto" src="http://121.40.203.186/abbott/7-9/Search.mp4">
+                        <!--<video width="100%" height="100%" id="index" controls="controls" preload="auto" src="../video/shejiaopian/LookFace.mp4">-->
+                    </video>
+                </p>
+            </a>
+        </div>
+        <a href="javascript:jump('../Main.html')">
+            <p class="img_content">
+                <img src="../../images/box.png" />
+            </p>
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"
+        name="viewport" />
+    <meta name="format-detection" content="telephone=no" />
+    <script src="../../Scripts/jquery-1.7.1.min.js"></script>
+    <script src="../../Scripts/layer/layer.js"></script>
+    <script src="../../Scripts/main.js"></script>
+    <link href="../../style/main.css" rel="stylesheet" />
+    <link href="../../style/one.css" rel="stylesheet" />
+    <title></title>
+    <style type="text/css">
+        .close {
+            position: absolute;
+            top: -8%;
+            left: 88%;
+            right: 1%;
+            bottom: 72%;
+        }
+    </style>
+</head>
+<body>
+    <div id="content" style="width: 100%; height: 100%">
+        <img src="../../images/layerimg/0-1.jpg" style="position: relative; height: 100vh" />
+        <p class="close" onclick="close_click()"></p>
+        <!---视觉训练-->
+        <a href="javascript:jumps('../0-1/1_VisualTraining.html')">
+            <p class="sjxl"></p>
+        </a>
+        <!---听觉训练-->
+        <a href="javascript:jumps('../0-1/1_AuricularTraining.html')">
+            <p class="tjxl"></p>
+        </a>
+        <!---视听结合-->
+        <a href="javascript:jumps('../0-1/1_SeeAndHear.html')">
+            <p class="stjh"></p>
+        </a>
+        <!---全身按摩-->
+        <a href="javascript:jumps('../0-1/1_WholeBodyMassage.html')">
+            <p class="qsam"></p>
+        </a>
+        <!---肢体被动活动-->
+        <a href="javascript:jumps('../0-1/1_PassiveActivity.html')">
+            <p class="ztbdhd"></p>
+        </a>
+        <!---肢体被动活动-->
+        <a href="javascript:jumps('../0-1/1_PassiveRisePprone.html')">
+            <p class="bdfwtt"></p>
+        </a>
+        <!---模仿动作-->
+        <a href="javascript:jumps('../0-1/1_Echomotism.html')">
+            <p class="mfdz"></p>
+        </a>
+        <!---安全抚慰-->
+        <a href="javascript:jumps('../0-1/1_SafetyAndComfort.html')">
+            <p class="aqfw"></p>
+        </a>
+        <!---看人脸-->
+        <a href="javascript:jumps('../0-1/1_LookFace.html')">
+            <p class="krl"></p>
+        </a>
+    </div>
+</body>
+</html>
+<script type="text/javascript">
+    //关闭按钮
+    function close_click() {
+        var index = parent.layer.getFrameIndex(window.name);
+        window.parent.layer.close(index);
+    }
+</script>

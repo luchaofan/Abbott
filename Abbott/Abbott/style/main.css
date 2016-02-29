@@ -1,0 +1,40 @@
+﻿html, body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    /*position: relative;*/
+}
+
+.content {
+    width: 100%;
+    z-index: 98;
+}
+
+    .content div {
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        position: relative;
+    }
+
+
+.img_content {
+    position: fixed;
+    top: 12%;
+    left: 83%;
+    right: 6%;
+    user-select: none;
+    z-index: 999;
+}

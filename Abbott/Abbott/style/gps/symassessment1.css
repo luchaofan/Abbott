@@ -1,0 +1,116 @@
+﻿.p_css {
+    position: absolute;
+    top: 10.5%;
+    left: 6%;
+    right: 6%;
+    bottom: 86%;
+    text-align: center;
+    color: #E463AF;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.p_css1 {
+    position: absolute;
+    top: 14%;
+    left: 15%;
+    right: 6%;
+    bottom: 82%;
+    text-align: left;
+    color: #E463AF;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.contianer {
+    /*position: absolute;*/
+    top: 17%;
+    left: 8%;
+    right: 5.5%;
+    bottom: 72%;
+}
+
+.contianer1 {
+    position: absolute;
+    top: 17%;
+    /*left: 8%;*/
+    right: 5.5%;
+    bottom: 60%;
+}
+
+.contianer2 {
+    position: absolute;
+    top: 34%;
+    /*left: 8%;*/
+    right: 5.5%;
+    bottom: 29%;
+}
+
+.contianer3 {
+    position: absolute;
+    top: 76%;
+    /*left: 8%;*/
+    right: 5.5%;
+    bottom: 20%;
+}
+
+.contianer4 {
+    position: absolute;
+    top: 88%;
+    left: -1%;
+    right: 5.5%;
+    bottom: 14%;
+}
+
+.contianer5 {
+    position: absolute;
+    top: 97.5%;
+    /*left: 8%;*/
+    right: 5.5%;
+    bottom: 1%;
+}
+
+li {
+    font-size: 14px;
+    text-align: left;
+    color: #E463AF;
+}
+
+.nostyle {
+    list-style: none;
+    white-space: nowrap;
+}
+
+.imgx_css {
+    margin-left: -4%;
+    width: 12%;
+    float: left;
+}
+
+.imgxz_css {
+    width: 56%;
+    margin-top: -6%;
+}
+
+.imgx_p_css {
+    line-height: 1.2vh;
+    float: left;
+    word-break: break-all;
+    width: 40%;
+}
+
+.imgx_p_css1 {
+    line-height: 1.2vh;
+    float: left;
+    word-break: break-all;
+    width: 88%;
+}
+
+.next {
+    position: absolute;
+    top: 90%;
+    left: 6%;
+    right: 6%;
+    bottom: 2%;
+    border: 1px solid red;
+}
